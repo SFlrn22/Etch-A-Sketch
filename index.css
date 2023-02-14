@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    height: 800px;
+    width: 960px;
+    display: flex;
+    gap: 75px;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 55px;
+}
+
+.buttons {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+}
+
+.buttons h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.sketch {
+    width: 50%;
+    height: 60%;
+    border: 1px solid black;
+    align-self: center;
+}
+
+button {
+    font-size: 25px;
+}
+
